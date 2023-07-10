@@ -1,0 +1,30 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    margin: 30px;
+}
+
+h1{
+    margin: 35px;
+}
+div, button{
+    margin: 20px;
+}
+input{
+    width: 95%;
+}
+label{
+    color: darkslategray;
+}
+.exito{
+    background-color: green;
+    width: 100%;
+}
+.error{
+    background-color: red;
+    width: 100%;
+}
+
+

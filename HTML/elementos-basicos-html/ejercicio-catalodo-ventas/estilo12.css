@@ -1,0 +1,19 @@
+.caja-grid{
+    display: grid;
+    border: 2px dashed green;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 12px 120px 100px;
+
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,100px);
+    gap: 10px;
+}
+
+.caja{
+     color: white;
+     background: green;
+    border: 1px dashed orange;
+}
+.custom-grid{
+    grid-column: 1/3;
+}

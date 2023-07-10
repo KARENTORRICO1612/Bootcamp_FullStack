@@ -1,0 +1,109 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+}
+    
+body {
+    background:linear-gradient(rgba(0,0,0, .3),rgba(77, 43, 6, 0.3)),url(https://media.istockphoto.com/id/1394532585/es/foto/fondo-de-pared-de-hoja-verde.jpg?b=1&s=170667a&w=0&k=20&c=CqkI1OFo7fJyVdFgCZ5PvP7QHYqll90c9zXDgBSdqAI=);
+    color:white;
+    background-size: cover;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+    
+form {
+     margin-top: 30px;
+}
+    
+.login {
+    border-radius: 30px;
+    margin: auto;
+    height: 550px;
+    width: 400px;
+    padding: 70px;
+    background: linear-gradient(rgba(0,0,0, .3),rgba(2, 26, 8, 0.3)), url(https://media.istockphoto.com/id/1191991111/es/v%C3%ADdeo/bloques-abstractos-fondo.jpg?s=640x640&k=20&c=ZHjz3zj0bDUoozkKQhIu-iXWtYaka-WDAONSu2Vpofw=) center;
+    background-size: cover;
+    box-shadow: 0px 30px 60px -5px black;
+}
+    
+h2 {
+    border-bottom: 2px solid black;
+    padding-left: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+    
+.campo-nombre, .campo-codigo {
+    width: 90%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0);
+    margin-top: 10px;
+    transition: all 0.5s;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 25px; 
+}
+    
+.campo-nombre:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+    
+.campo-image.png:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+    
+label {
+    margin-top: 20px;
+    display: block;
+}
+    
+.boton-ingresar {
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: rgb(112, 140, 142);
+    color: black;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    font-style: initial;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    
+}
+    
+.boton-ingresar:hover {
+    background:rgb(88, 46, 17);
+    cursor:pointer;
+}
+    
+hr {
+    margin-top: 50px;
+    border: 1px solid white;
+}
+    
+a {
+    line-height: 30px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+    
+.sesion-activa {
+    display: inline-block;
+    margin-bottom: 25px;    
+}

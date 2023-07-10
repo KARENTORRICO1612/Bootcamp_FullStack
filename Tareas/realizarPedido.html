@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETALLES DEL PEDIDO</title>
+    <style>
+        body{
+            background-color: goldenrod;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    
+    <center><h1>BIENVENIDO A NUESTRA SECCION DE PEDIDOS</h1></center>
+    <img  height="100px" src="https://media.cnn.com/api/v1/images/stellar/prod/221206115548-shein-logo.jpg?c=original">
+
+
+        <h2>Preferencia de Pedido:</h2>
+
+        <form method="post" action="https://webhook.site/360cb2c9-5c77-43be-b2c8-b5b3dc5a6955">
+            <fieldset>
+
+                <label for="firstName">Nombre:</label>
+                <input required id="firstName" type="firstName" type="text" placeholder="Ingresa tu nombre" >
+                <br>
+                <label for="email">Email: </label>
+                <input required id="email" type="email" placeholder="Ingresa tu email" >
+                <br>
+                <label for="celular">Numero de Celular</label>
+                        <input id="celular" name="celular" type="number" placeholder="Ingresa numero de celular">
+                <hr>
+
+                <legend>Datos</legend>
+                <label for="tipo">Tipo de Prenda:</label>
+                <input required id="tipo" name="tipo" type="text" >
+            
+            
+                <label for="precio">Precio</label>
+                <input id="precio" name="precio" type="number">
+
+                <label for="numero">Numero de Tarjeta</label>
+                <input id="numero" name="numero" type="number">
+                
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Preferencias de Pedido</legend>
+
+                <label >Tipo de Pago</label><br>
+
+                <label for="tarjeta">Tarjeta</label>
+                <input type="radio" name="tarjeta" value="tarjeta" id="tarjeta">
+                <label for="efectivo">Efectivo</label>
+                <input type="radio" name="efectivo" value="efectivo" id="efectivo">
+                <label for="transferencia">Transferencia</label>
+                <input type="radio" name="transferencia" value="transferencia" id="transferencia">
+
+                <br> <br>
+
+                <label for="colorPrenda">Color De la Prenda</label>
+                <input type="color" id="colorPrenda"  name="colorPrenda">
+
+                <label for="cantidad">Cantidad a comprar</label>
+                <input type="range" min="0" max="100" value="50">
+
+                <label>Adjunta la imagen de la prenda que deseas</label>
+                <input type="file" name="file" accept="image/png, image/jpeg, image/gif">
+                <br>
+                <label>Fecha de Entrega:</label>
+                <input type="date">
+                <br>
+                <br>
+                <label >Modalidad de Entrega</label><br>
+
+                <label for="reserva">Recoger en tienda</label>
+                <input type="radio" name="reserva" value="reserva" id="reserva">
+
+                <label for="delivery">Delivery</label>
+                <input type="radio" name="delivery" value="delivery" id="delivery">
+    
+                <!--<input type="reset" value="Resetear formulario">-->
+            </fieldset>
+
+            <input type="submit" value="Enviar datos">
+
+        </form>
+
+</body>
+</html>

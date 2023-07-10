@@ -1,0 +1,67 @@
+
+.caja-grid{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    margin: auto;
+    width: 500px;
+    gap: 10px;
+    grid-auto-rows: minmax(100px,auto);
+
+    border-radius: 10px;
+    margin: 5px;
+}
+.caja-1{
+    background: green;
+    grid-column: 1/4 span;
+    grid-row: 1;
+    gap: 10px;
+}
+
+.caja-2 {
+    background: yellow;
+    grid-column: 1 / span 2;
+    grid-row: 2
+}
+
+
+.caja-3 {
+    background: skyblue;
+    grid-column: 3 / span 2;
+}
+
+.caja-4 {
+    background: purple;
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 3;
+}
+
+.caja-5 {
+    background: grey;
+    grid-column: 3 / span 2;
+    grid-row: 3;
+}
+
+.caja-6 {
+    background: blue;
+    grid-column: 3 / span 1;
+    grid-row: 4;
+}
+
+.caja-7 {
+    background: orange;
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.caja-8 {
+    background: rgb(149, 139, 139);
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.caja-9 {
+    background: red;
+    grid-column: 4;
+    grid-row: 5;
+}

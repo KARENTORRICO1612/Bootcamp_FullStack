@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(136, 136, 229);
+}
+
+div{
+    padding: 20px;
+    margin: 5px;
+    background-color: yellow;
+    border: 5px dashed red;
+}
+
+#elemento2{
+    width: 50%;
+}
+
+#elemento1{
+    background: orange;
+}
+.bg-personal{
+    background: white;
+    padding: 7px;
+    margin: 5px;
+}
+
+h3.bg-personal{
+    color: aqua;
+    background: maroon;
+}
+
+.font-personalizado, .box.personalizado{
+    background: yellowgreen;
+    font-size: 45px;
+}
+
+.font-personalizado{
+    padding: 10px;
+}
+.box.personalizado{
+    padding: 50px;
+}

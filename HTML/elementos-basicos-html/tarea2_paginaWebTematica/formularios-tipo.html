@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <h1>FORMULARIOS EN HTML5</h1>
+
+    <h2>Registrar usuario</h2>
+
+    <form method="post"  action="https://webhook.site/360cb2c9-5c77-43be-b2c8-b5b3dc5a6955">
+
+        <label for="firstName">Nombre:</label>
+        <input required id="firstName" type="firstName" type="text" placeholder="Ingresa tu nombre" >
+        <br>
+        <label for="email">Email:</label>
+        <input required id="email" type="email" placeholder="Ingresa tu email" >
+        <br>
+        <label for="password">Contraseña:</label>
+        <input required id="password" type="password" placeholder="Ingresa tu contraseña" >
+        <br>
+        <label for="password2">Confirmar Contraseña:</label>
+        <input required id="password2"  type="password" placeholder="Repite la contraseña" >
+
+        <input type="submit" value="Iniciar sesion">
+
+        <hr>
+        <br>
+
+        <h2>Preferencia de Usuario</h2>
+
+        <form method="post" action="https://webhook.site/3ba84634-06f9-417d-9c83-a8b0b1d9d6f3">
+            <fieldset>
+                <legend>Datos</legend>
+                <label for="firstName">Nombre:</label>
+                <input required id="firstName" type="firstName" type="text" placeholder="Ingresa tu nombre" >
+            
+            
+                <label for="edad">Edad</label>
+                <input id="edad" name="edad" type="number">
+
+                <label for="dni">N.IDT</label>
+                <input id="dni" name="dni" type="number">
+
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Preferencias</legend>
+
+                <label >Genero</label><br>
+
+                <label for="Maculino">Masculino</label>
+                <input type="radio" name="gender" value="Masculino" id="Masculino">
+                <label for="Femenino">Femenino</label>
+                <input type="radio" name="gender" value="Femenino" id="Femenino">
+                <label for="Neutro">Neutro</label>
+                <input type="radio" name="gender" value="Neutro" id="Neutro">
+
+                <br> <br>
+
+                <label>Pasatiempos</label>
+
+                <label for="musica">Escuchar musica</label>
+                <input type="checkbox" id="musica" value="musica" name="Pasatiempos">
+
+                <label for="pintar">Pintar</label>
+                <input type="checkbox" id="pintar" value="mpintar" name="Pasatiempos">
+
+                <label for="programar">Programar</label>
+                <input type="checkbox" id="programar" value="programar" name="Pasatiempos">
+
+                <label for="colorFavorito">Color favorito</label>
+                <input type="color" id="colorFavorito"  name="colorFavorito">
+
+                <label for="salario">Preferencia Salarial</label>
+                <input type="range" min="0" max="3000" value="1500">
+
+                <label>Adjunta tu CV</label>
+                <input type="file" name="file" accept="image/png, image/jpeg, image/gif">
+                <br>
+                <label>Link de Likedlin</label>
+                <input type="url">
+                <br>
+                <label>Fecha de Nacimiento:</label>
+                <input type="date">
+
+
+                <input type="hidden" value="seguro-0120190291" name="token oculto">
+                
+                <!--<input type="reset" value="Resetear formulario">-->
+            </fieldset>
+
+            <input type="submit" value="Enviar datos">
+
+        </form>
+
+
+    </form>
+</body>
+</html>

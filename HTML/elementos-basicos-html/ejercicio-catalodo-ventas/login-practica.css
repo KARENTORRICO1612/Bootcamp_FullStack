@@ -1,0 +1,107 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+}
+    
+body {
+    background:url(https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c100e1e4-63a9-4adc-9794-202888321104.jpg);
+    color:white;
+    background-size: cover;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+    
+form {
+     margin-top: 30px;
+}
+    
+.login {
+    border-radius: 30px;
+    margin: auto;
+    height: 550px;
+    width: 400px;
+    padding: 70px;
+    background: linear-gradient(rgba(0,0,0, .3),rgba(77, 43, 6, 0.3)), url(https://149346090.v2.pressablecdn.com/wp-content/uploads/2023/03/GettyImages-1244733942-scaled.jpg) center;
+    background-size: cover;
+    box-shadow: 0px 30px 60px -5px black;
+}
+    
+h2 {
+    border-bottom: 2px solid black;
+    padding-left: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+    
+.campo-email, .campo-password {
+    width: 90%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0);
+    margin-top: 10px;
+    transition: all 0.5s;
+    color: white;
+    font-size: 15px;
+}
+    
+.campo-email:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+    
+.campo-password:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+    
+label {
+    margin-top: 20px;
+    display: block;
+}
+    
+.boton-ingresar {
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: rgb(131, 57, 20);
+    color: black;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    font-style: initial;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+    
+.boton-ingresar:hover {
+    background:rgb(88, 46, 17);
+    cursor:pointer;
+}
+    
+hr {
+    margin-top: 50px;
+    border: 1px solid white;
+}
+    
+a {
+    line-height: 30px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+    
+.sesion-activa {
+    display: inline-block;
+    margin-bottom: 25px;    
+}

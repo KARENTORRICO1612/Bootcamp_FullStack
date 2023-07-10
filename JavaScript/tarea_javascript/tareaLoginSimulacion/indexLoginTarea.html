@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Plataforma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="/tarea_javascript/tareaLoginSimulacion/stylelogin.css"
+    />
+
+    
+  </head>
+
+
+  <body>
+    <div class="login">
+      <h2>INICIAR SESION</h2>
+
+      <form>
+        <label for="nombre"> Nombre:</label>
+        <input
+          class="campo-nombre"
+          type="nombre"
+          name="nombre"
+          id="nombre"
+          validate
+        />
+
+        <label for="codigo">Código:</label>
+        <input class="campo-codigo" type="codigo" name="codigo" id="codigo" />
+
+        <script src="/tarea_javascript/tareaLoginSimulacion/funcionLogin.js">
+        </script>
+
+        <button class="boton-ingresar" id="ingresa" name="boton-ingresar">
+          INGRESAR
+        </button>
+
+
+        <hr />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    background: blanchedalmond;
+}
+
+h1{
+    color: purple;
+    font-size: 50px;
+    background-color: yellow;
+}
+p{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 50px;
+    background: green;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div{
+    background-color: orange;
+    width: 50px;
+    height: 100px;
+}
+
+section{
+    background: purple;
+    width: 50%;
+    height: 200px;
+    background-image: linear-gradient(rgba(255,2,3,0.5), rgba(0,0,255,0.5)),url(https://as01.epimg.net/diarioas/imagenes/2022/04/20/actualidad/1650466413_240889_1650466661_noticia_normal_recorte1.jpg);
+    background-size: cover;
+}

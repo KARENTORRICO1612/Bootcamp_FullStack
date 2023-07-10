@@ -1,0 +1,24 @@
+body{
+    background: rgb(54,49,49);
+    color: white;
+}
+h1{
+    color: white;
+}
+header, main, footer{
+    border: 5px solid greenyellow;
+    margin: 5px;
+}
+section, aside,nav{
+    border: 5px solid orange;
+    margin: 5px;
+}
+
+article, .contenido-publicidad{
+    border: 5px solid rgb(57,228,228);
+    margin:5px;
+}
+header{
+    display: flex;
+    
+}

@@ -1,0 +1,16 @@
+.caja1{
+    border: 1px solid green;
+    width: 33%;
+}
+.caja2{
+    border: 1px solid green;
+    width: 33%;
+}
+.caja3{
+    border: 1px solid green;
+    width: 33%;
+}
+.caja4{
+    border: 1px solid blue;
+    clear: both;
+}

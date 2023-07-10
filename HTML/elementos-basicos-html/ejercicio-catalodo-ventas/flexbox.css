@@ -1,0 +1,10 @@
+body{
+    background: rgb(224,224,48);
+}
+
+.elemento{
+    margin: 100%;
+    background: rgb(118,118,216);
+    height: 100px;
+    width: 100px;
+}

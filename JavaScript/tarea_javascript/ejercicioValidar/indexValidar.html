@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/tarea_javascript/ejercicioValidar/validarStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Validar identidad</h1>
+    
+    <div class="mb-3">
+        <label for="item_nombre" class="form-label">Nombre Completo</label>
+        <br>
+        <input type="text" class="form-control" id="item_nombre" placeholder="Ingresa tu nombre completo">
+      </div>
+
+      <div class="mb-3">
+        <label for="item_dni" class="form-label">N. DNI</label>
+        <br>
+        <input type="text" class="form-control" id="item_dni" placeholder="Ingresa tu DNI">
+      </div>
+
+      <div class="mb-3">
+        <label for="item_fecha" class="form-label">Fecha de Nacimiento</label>
+        <br>
+        <input name = "item_fecha" type="date" class="form-control" id="item_fecha">
+    </div>
+
+
+      <button  onclick="validar()" class="btn btn-dark" >Validar</button>
+      <br>
+    </div>
+
+    <script src="/tarea_javascript/ejercicioValidar/validar.js"></script>
+</body>
+</html>
